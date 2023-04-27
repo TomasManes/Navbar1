@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;600;800&display=swap');
+
+*{
+    padding: 0%;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+}
+header{
+    background-color: #85813a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px 20px;
+    height: auto;
+    
+    
+}
+.header .Logo img{
+    height: 80px;
+    width: auto;
+    border-radius: 5%;
+    align-items: center;
+    
+}
+ ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.Logo{
+    height: auto;
+    width: auto;
+    border-radius: 0%;
+}
+.header .Nav-link{
+    list-style: none;
+
+}
+.header .Nav-link li{
+    display: inline-block;
+    padding: 0% 20px;
+
+}
+.Logo{
+    height: 80px;
+    width: 80px;
+    
+}
+.header .Nav-link a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
